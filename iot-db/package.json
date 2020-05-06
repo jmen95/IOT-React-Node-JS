@@ -1,0 +1,21 @@
+{
+  "name": "iot-db",
+  "version": "1.0.0",
+  "description": "App de internet de las cosas",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "fix": "standard --fix"
+  },
+  "keywords": [],
+  "author": "Jesús Mendoza",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^14.3.3"
+  },
+  "dependencies": {
+    "pg": "^8.0.3",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.7"
+  }
+}
